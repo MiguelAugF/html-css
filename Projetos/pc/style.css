@@ -18,7 +18,7 @@ header{
     text-align: center
 }
 header > h1{
-    font-family: 'Ex',cursive;
+    font-family: 'Ex',sans-serif;
     font-size:9vw;
     padding-top: 50px;
     font-weight: bold;
@@ -36,7 +36,7 @@ header a:hover{
     text-decoration: underline;
 }
 article{
-    font-family: 'Sriracha', cursive;
+    font-family: 'Sriracha', sans-serif;
     font-size:3.5vw;
     padding-top:1em;
     line-height: 2em;
@@ -53,6 +53,7 @@ section#t1{
     background-image: url(imagens/background001.jpg);
     background-size:cover;
     background-attachment: fixed;
+    background-position: top center;
     padding:50px;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.502);
 }
@@ -84,6 +85,7 @@ section#t4{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: top center;
     padding: 50px;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.502);
 }
