@@ -15,7 +15,7 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
-i#menu{
+i#burger{
     background-color: rgb(39, 39, 39);
     display: block;
     color: white;
@@ -23,7 +23,7 @@ i#menu{
     padding: 10px;
     cursor: pointer;
 }
-i#menu:hover{
+i#burger:hover{
     background-color: rgb(147, 147, 147);
     color: black;
     transition-duration: .4s;
