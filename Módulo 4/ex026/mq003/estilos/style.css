@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    color:white;
+    text-shadow: 2px 2px 5px #233eff;
+    padding: 10px;
+    background-color: #233eff;
+}
+/* Retrato */
+@media screen and (orientation: portrait) {
+    body{
+        background: url(../../imagens/cev-portrait.jpg);
+        background-position: center bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #233eff;
+    }
+}
+/* Paisagem */
+@media screen and (orientation: landscape) {
+    body{
+        background: url(../../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #233eff;
+    }
+}
